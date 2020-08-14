@@ -1,0 +1,577 @@
+@import url('https://googleapis.com/css2?family=Source+Sans+Pro:wght@200')
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+/********************
+	 **All CSS**
+********************/
+/***************************
+ Header section css start
+****************************/
+.header-section{
+	width: 100%;
+	padding: 10px 0px;
+	background: url(../images/back.png) center top no-repeat;
+	background-size: cover;
+}
+.header-section .bg-light{
+	background: transparent !important;
+	margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	background: url(../images/pp.png) center bottom no-repeat;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 0px 0px 0px 10px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #2ebaee;
+	background: #000;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;}
+.banner-inner{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner-inner h2{
+	font-size:38px;
+	line-height: 48px;
+	color: #fff;
+	letter-spacing: 2px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.banner-inner p{
+	font-size: 22px;
+	line-height: 28px;
+	color: #fff;
+	letter-spacing: 3px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+.banner .banner-inner span{
+	color: #2ebaee;
+}
+.btn-inner{
+	width: 100%;
+	padding: 20px 0px;
+}
+.btn-inner .btn-info{
+	padding: 10px 35px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 25px;
+	background: #2ebaee;
+	border: 1px solid #0099cc;
+	color: #fff;
+}
+.btn-inner .btn-info:hover{
+	background: transparent;
+	border: 1px solid #0099cc;
+	color: #2ebaee;
+	transition: 1s;
+}
+/*********************************
+	Header section css End
+*********************************/
+
+
+/*********************************
+	Service section css start
+*********************************/
+.service{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+}
+.service h2{
+	font-size: 34px;
+	line-height: 38px;
+	letter-spacing: 4px;
+	font-weight: 600;
+}
+.service .service-inner{
+	width: 100%;
+	padding: 60px 30px;
+	text-align: left;
+}
+.service .service-inner h4{
+	padding: 20px 0px;
+	font-size: 22px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.service .service-inner p{
+	font-size: 12px;
+	line-height: 14px;
+	color: #cfcfcf;
+	font-weight: 400;
+}
+.service .service-inner .btn-inner{
+	text-align: center;
+	padding: 30px 0px;
+
+}
+.service .service-inner .btn-inner:hover{
+	background: transparent;
+	border: 1px solid #0099cc;
+	color: #2ebaee;
+	transition: 1s;
+}
+/*********************************
+	Service section css End
+*********************************/
+/*****************************
+	Lorem inner Css Start
+*******************************/
+.inner{
+	width: 100%;
+	background: url(../images/shape.png) center top no-repeat;
+	padding-bottom: 30px;
+}
+.inner-service h2{
+	padding-top: 80px;
+	text-align: left;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.inner-service p{
+	padding-top: 30px;
+	color: #cfcfcf;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 500;
+}
+.inner-service .btn-inner{
+	padding-top: 60px;
+}
+.service-2{
+	padding-top: 50px;
+}
+.service-2 h2{
+	padding-top: 80px;
+	text-align: left;
+	color: #fff;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.service-2 p{
+	padding-top: 30px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 500;
+}
+.service-2 .btn-inner{
+	padding: 30px;
+	background: #2ebaee;
+	color: #fff;
+}
+.service-2 .btn-info:hover{
+	background: transparent;
+	background-color: #fff;
+	color: #2ebaee;
+	transition: 1s;
+}
+/*****************************
+	Lorem inner Css End
+*******************************/
+.ipsum{
+}
+.ipsum img{
+	width: 100%;
+}
+.ipsum h2{
+	padding-top: 150px;
+	text-align: left;
+	font-size: 38px;
+	line-height: 42px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.ipsum p{
+	padding-top: 30px;
+	letter-spacing: 1px;
+	color: #cfcfcf;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.ipsum .btn-inner{
+	padding-top: 60px;
+}
+
+.ipsum-inner .bi{
+	width: 130%;
+	padding: 20px 0px;
+	color: #fff;
+	background: url(../images/b1.png) center top no-repeat;
+}
+.ipsum-inner .bi:hover{
+	color: #fff;
+	background: #3aa7ce;
+	transition: 1s;
+}
+.ipsum-inner .bi h2{
+	padding: 40px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.ipsum-inner .bi2{
+	width: 130%;
+	padding: 20px 0px;
+	color: #fff;
+	background: url(../images/b2.png) center top no-repeat;
+}
+.ipsum-inner .bi2 h2{
+	padding: 40px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.ipsum-inner .bi3{
+	width: 130%;
+	padding: 20px 0px;
+	color: #fff;
+	background: url(../images/b3.png) center top no-repeat;
+}
+.ipsum-inner .bi3:hover{
+	color: #fff;
+	background: #3aa7ce;
+	transition: 1s;
+}
+.ipsum-inner .bi3 h2{
+	padding: 40px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.ipsum-inner .bi4{
+	width: 130%;
+	padding: 20px 0px;
+	color: #fff;
+	background: url(../images/b4.png) center top no-repeat;
+}
+.ipsum-inner .bi4:hover{
+	color: #fff;
+	background: #3aa7ce;
+	transition: 1s;
+}	
+.ipsum-inner .bi4 h2{
+	padding: 40px;
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+/************************
+check section css start
+**************************/
+
+.check{
+	width: 100%;
+	padding: 40px 0px;
+}
+.check .inner-check h2{
+	font-size: 40px;
+	line-height: 44px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+.check .inner-check h2 span{
+	color: #2ebaee;
+
+}
+.check-inner{
+	width: 100%;
+	padding: 50px 20px 0px 0px;
+	text-align: center; 
+
+}
+.check-inner h2{
+	padding-top: 20px;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 2px;
+	font-weight: 600;	
+}
+.check-inner p{
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 500;
+	color: #cfcfcf;
+
+}
+.check-inner .btn-info{
+	background: #2ebaee;
+	color: #fff;
+}
+.check-inner .btn-info:hover{
+	background: transparent;
+	background-color: #fff;
+	color: #2ebaee;
+	border-radius: 2px;
+	transition: 1s;
+}
+/************************
+check section css End
+**************************/
+
+
+/****************************
+contact section css start
+*****************************/
+.contact{
+	width: 100%;
+	padding: 50px;
+	background: url(../images/back2.png) center top no-repeat;
+}
+.contact .inner-contact{
+	padding-left: 40px;
+	text-align: center;
+	color: #ffffff;
+}
+.contact .contact-inner h2{
+	padding: 30px;
+	font-size: 40px;
+	line-height: 44px;
+	letter-spacing: 2px;
+	font-weight: 600;	
+}
+.contact .contact-inner .inner-contact p{
+	padding-top: 20px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.contact .contact-inner .inner-contact h5{
+	padding: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.contact .contact-inner .inner-contact h5 span{
+	color: #2ebaee;
+
+}
+.social-icon{
+	padding-top: 20px;
+}
+.social-icon ul li{	
+	padding-top: 10px 20px 0px 0px;
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 20px;
+}
+.social-icon ul li a i{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background: #fff;
+	border-radius: 50%;
+	color: #313243;
+	margin-left: 10px;
+}
+.social-icon .fa-twitter{
+	background: #3aa7ce;
+	color: #fff;
+	transition: 1s;
+}	
+.social-icon .fa-facebook{
+	background: #08c;
+	color: #fff;
+	transition: 1s;
+}	
+.social-icon .fa-pinterest-p{
+	background: #cc2127;
+	color: #fff;
+	transition:	1s;
+}	
+.social-icon .fa-google-plus{
+	background: #dd4b39;
+	color: #fff;
+	transition:	1s;
+}	
+
+.social-icon .fa-envelope-o{
+	background: #e23047;
+	color: #fff;
+	transition:	1s;
+}	
+.contact .form-contact{
+	background: transparent;
+	border: 1px solid #444348;
+	font-size: 14px;
+	padding: 10px;
+	color: #444348;
+	height: auto !important;
+	margin-bottom: 10px;
+}
+.contact .form-contact .form-group .form-control{
+	background: transparent;
+	border: 2px solid #444348;
+	font-size: 12px;
+	padding: 10px;
+	color: #444348;
+	height: 60px !important ;
+}
+.contact .form-contact .form-group .form-controll{
+	width: 100%;
+	border-radius: 5px;
+	background: transparent;
+	border: 1px solid #444348;
+	font-size: 14px;
+	padding: 10px;
+	color: #444348;
+	height: 180px !important ;
+}
+.contact .form-contact .btn-primary {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-radius: 2px;
+	background: #2ebaee;
+	border: 1px solid #2ebaee;
+	color: #fff;
+	margin-left: 80px;
+}
+.contact .form-contact  .btn-primary:hover {
+	background: transparent;
+	color: #2ebaee;
+	border-radius: 2px;
+	transition: 1s;
+}
+/****************************
+contact section css End
+*****************************/
+/***************************
+footer section css start
+*****************************/
+.footer-section{
+	width: 100%;
+	padding: 20px;
+	background: #000;
+}
+.footer-section .text p{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #cfcfcf;
+}
+.footer-section .text-2 p{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 600;
+	color: #cfcfcf;
+}
+/***************************
+footer section css end
+*****************************/
+
+.
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
